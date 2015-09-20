@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFE09EA71BAF7C9000066196 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE09EA61BAF7C9000066196 /* AppDelegate.swift */; };
+		BFE09EA91BAF7C9000066196 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BFE09EA81BAF7C9000066196 /* GameScene.sks */; };
+		BFE09EAB1BAF7C9000066196 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE09EAA1BAF7C9000066196 /* GameScene.swift */; };
+		BFE09EAD1BAF7C9000066196 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE09EAC1BAF7C9000066196 /* GameViewController.swift */; };
+		BFE09EB01BAF7C9000066196 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE09EAE1BAF7C9000066196 /* Main.storyboard */; };
+		BFE09EB21BAF7C9000066196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE09EB11BAF7C9000066196 /* Assets.xcassets */; };
+		BFE09EB51BAF7C9000066196 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE09EB31BAF7C9000066196 /* LaunchScreen.storyboard */; };
+		BFE09EC01BAF7C9000066196 /* Tucany_BirdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE09EBF1BAF7C9000066196 /* Tucany_BirdTests.swift */; };
+		BFE09ECB1BAF7C9000066196 /* Tucany_BirdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE09ECA1BAF7C9000066196 /* Tucany_BirdUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFE09EBC1BAF7C9000066196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFE09E9B1BAF7C9000066196 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFE09EA21BAF7C9000066196;
+			remoteInfo = "Tucany Bird";
+		};
+		BFE09EC71BAF7C9000066196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFE09E9B1BAF7C9000066196 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFE09EA21BAF7C9000066196;
+			remoteInfo = "Tucany Bird";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFE09EA31BAF7C9000066196 /* Tucany Bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tucany Bird.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE09EA61BAF7C9000066196 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFE09EA81BAF7C9000066196 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		BFE09EAA1BAF7C9000066196 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		BFE09EAC1BAF7C9000066196 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BFE09EAF1BAF7C9000066196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFE09EB11BAF7C9000066196 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFE09EB41BAF7C9000066196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFE09EB61BAF7C9000066196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE09EBB1BAF7C9000066196 /* Tucany BirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tucany BirdTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE09EBF1BAF7C9000066196 /* Tucany_BirdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tucany_BirdTests.swift; sourceTree = "<group>"; };
+		BFE09EC11BAF7C9000066196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE09EC61BAF7C9000066196 /* Tucany BirdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tucany BirdUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE09ECA1BAF7C9000066196 /* Tucany_BirdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tucany_BirdUITests.swift; sourceTree = "<group>"; };
+		BFE09ECC1BAF7C9000066196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFE09EA01BAF7C9000066196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE09EB81BAF7C9000066196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE09EC31BAF7C9000066196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFE09E9A1BAF7C9000066196 = {
+			isa = PBXGroup;
+			children = (
+				BFE09EA51BAF7C9000066196 /* Tucany Bird */,
+				BFE09EBE1BAF7C9000066196 /* Tucany BirdTests */,
+				BFE09EC91BAF7C9000066196 /* Tucany BirdUITests */,
+				BFE09EA41BAF7C9000066196 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFE09EA41BAF7C9000066196 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFE09EA31BAF7C9000066196 /* Tucany Bird.app */,
+				BFE09EBB1BAF7C9000066196 /* Tucany BirdTests.xctest */,
+				BFE09EC61BAF7C9000066196 /* Tucany BirdUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFE09EA51BAF7C9000066196 /* Tucany Bird */ = {
+			isa = PBXGroup;
+			children = (
+				BFE09EA61BAF7C9000066196 /* AppDelegate.swift */,
+				BFE09EA81BAF7C9000066196 /* GameScene.sks */,
+				BFE09EAA1BAF7C9000066196 /* GameScene.swift */,
+				BFE09EAC1BAF7C9000066196 /* GameViewController.swift */,
+				BFE09EAE1BAF7C9000066196 /* Main.storyboard */,
+				BFE09EB11BAF7C9000066196 /* Assets.xcassets */,
+				BFE09EB31BAF7C9000066196 /* LaunchScreen.storyboard */,
+				BFE09EB61BAF7C9000066196 /* Info.plist */,
+			);
+			path = "Tucany Bird";
+			sourceTree = "<group>";
+		};
+		BFE09EBE1BAF7C9000066196 /* Tucany BirdTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFE09EBF1BAF7C9000066196 /* Tucany_BirdTests.swift */,
+				BFE09EC11BAF7C9000066196 /* Info.plist */,
+			);
+			path = "Tucany BirdTests";
+			sourceTree = "<group>";
+		};
+		BFE09EC91BAF7C9000066196 /* Tucany BirdUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFE09ECA1BAF7C9000066196 /* Tucany_BirdUITests.swift */,
+				BFE09ECC1BAF7C9000066196 /* Info.plist */,
+			);
+			path = "Tucany BirdUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFE09EA21BAF7C9000066196 /* Tucany Bird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE09ECF1BAF7C9000066196 /* Build configuration list for PBXNativeTarget "Tucany Bird" */;
+			buildPhases = (
+				BFE09E9F1BAF7C9000066196 /* Sources */,
+				BFE09EA01BAF7C9000066196 /* Frameworks */,
+				BFE09EA11BAF7C9000066196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tucany Bird";
+			productName = "Tucany Bird";
+			productReference = BFE09EA31BAF7C9000066196 /* Tucany Bird.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFE09EBA1BAF7C9000066196 /* Tucany BirdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE09ED21BAF7C9000066196 /* Build configuration list for PBXNativeTarget "Tucany BirdTests" */;
+			buildPhases = (
+				BFE09EB71BAF7C9000066196 /* Sources */,
+				BFE09EB81BAF7C9000066196 /* Frameworks */,
+				BFE09EB91BAF7C9000066196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFE09EBD1BAF7C9000066196 /* PBXTargetDependency */,
+			);
+			name = "Tucany BirdTests";
+			productName = "Tucany BirdTests";
+			productReference = BFE09EBB1BAF7C9000066196 /* Tucany BirdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFE09EC51BAF7C9000066196 /* Tucany BirdUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE09ED51BAF7C9000066196 /* Build configuration list for PBXNativeTarget "Tucany BirdUITests" */;
+			buildPhases = (
+				BFE09EC21BAF7C9000066196 /* Sources */,
+				BFE09EC31BAF7C9000066196 /* Frameworks */,
+				BFE09EC41BAF7C9000066196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFE09EC81BAF7C9000066196 /* PBXTargetDependency */,
+			);
+			name = "Tucany BirdUITests";
+			productName = "Tucany BirdUITests";
+			productReference = BFE09EC61BAF7C9000066196 /* Tucany BirdUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFE09E9B1BAF7C9000066196 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Think Thrice Tech";
+				TargetAttributes = {
+					BFE09EA21BAF7C9000066196 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					BFE09EBA1BAF7C9000066196 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BFE09EA21BAF7C9000066196;
+					};
+					BFE09EC51BAF7C9000066196 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BFE09EA21BAF7C9000066196;
+					};
+				};
+			};
+			buildConfigurationList = BFE09E9E1BAF7C9000066196 /* Build configuration list for PBXProject "Tucany Bird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFE09E9A1BAF7C9000066196;
+			productRefGroup = BFE09EA41BAF7C9000066196 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFE09EA21BAF7C9000066196 /* Tucany Bird */,
+				BFE09EBA1BAF7C9000066196 /* Tucany BirdTests */,
+				BFE09EC51BAF7C9000066196 /* Tucany BirdUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFE09EA11BAF7C9000066196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE09EA91BAF7C9000066196 /* GameScene.sks in Resources */,
+				BFE09EB51BAF7C9000066196 /* LaunchScreen.storyboard in Resources */,
+				BFE09EB21BAF7C9000066196 /* Assets.xcassets in Resources */,
+				BFE09EB01BAF7C9000066196 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE09EB91BAF7C9000066196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE09EC41BAF7C9000066196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFE09E9F1BAF7C9000066196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE09EAB1BAF7C9000066196 /* GameScene.swift in Sources */,
+				BFE09EAD1BAF7C9000066196 /* GameViewController.swift in Sources */,
+				BFE09EA71BAF7C9000066196 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE09EB71BAF7C9000066196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE09EC01BAF7C9000066196 /* Tucany_BirdTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE09EC21BAF7C9000066196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE09ECB1BAF7C9000066196 /* Tucany_BirdUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFE09EBD1BAF7C9000066196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFE09EA21BAF7C9000066196 /* Tucany Bird */;
+			targetProxy = BFE09EBC1BAF7C9000066196 /* PBXContainerItemProxy */;
+		};
+		BFE09EC81BAF7C9000066196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFE09EA21BAF7C9000066196 /* Tucany Bird */;
+			targetProxy = BFE09EC71BAF7C9000066196 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFE09EAE1BAF7C9000066196 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE09EAF1BAF7C9000066196 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFE09EB31BAF7C9000066196 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE09EB41BAF7C9000066196 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFE09ECD1BAF7C9000066196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFE09ECE1BAF7C9000066196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFE09ED01BAF7C9000066196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tucany Bird/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amwguilfoyle.Tucany-Bird";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFE09ED11BAF7C9000066196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tucany Bird/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amwguilfoyle.Tucany-Bird";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BFE09ED31BAF7C9000066196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Tucany BirdTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amwguilfoyle.Tucany-BirdTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tucany Bird.app/Tucany Bird";
+			};
+			name = Debug;
+		};
+		BFE09ED41BAF7C9000066196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tucany BirdTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amwguilfoyle.Tucany-BirdTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tucany Bird.app/Tucany Bird";
+			};
+			name = Release;
+		};
+		BFE09ED61BAF7C9000066196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Tucany BirdUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amwguilfoyle.Tucany-BirdUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Tucany Bird";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BFE09ED71BAF7C9000066196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Tucany BirdUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amwguilfoyle.Tucany-BirdUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Tucany Bird";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFE09E9E1BAF7C9000066196 /* Build configuration list for PBXProject "Tucany Bird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE09ECD1BAF7C9000066196 /* Debug */,
+				BFE09ECE1BAF7C9000066196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE09ECF1BAF7C9000066196 /* Build configuration list for PBXNativeTarget "Tucany Bird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE09ED01BAF7C9000066196 /* Debug */,
+				BFE09ED11BAF7C9000066196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFE09ED21BAF7C9000066196 /* Build configuration list for PBXNativeTarget "Tucany BirdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE09ED31BAF7C9000066196 /* Debug */,
+				BFE09ED41BAF7C9000066196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFE09ED51BAF7C9000066196 /* Build configuration list for PBXNativeTarget "Tucany BirdUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE09ED61BAF7C9000066196 /* Debug */,
+				BFE09ED71BAF7C9000066196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFE09E9B1BAF7C9000066196 /* Project object */;
+}
